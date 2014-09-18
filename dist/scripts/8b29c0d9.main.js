@@ -1,1 +1,0 @@
-function resetCounter(){count=0}function setContentOnOpener(){count+=1;var a=count.toString();window.opener.setCounter(a),setCounter(a)}function setCounter(a){var b=document.getElementById("count");b.innerText=a}var count=0;$("#tab_opener").click(function(){window.open("open.html")}),$("#reset_counter").click(function(){resetCounter()});
