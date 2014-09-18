@@ -1,0 +1,17 @@
+{
+  "generator-assemble": {
+    "projectName": "mobile tab talk timeout",
+    "projectDesc": "The best project ever.",
+    "authorLogin": "simonrentzke",
+    "installPlugin": true,
+    "author": {
+      "name": "Simon Rentzke",
+      "login": "assemble",
+      "email": "simon@rentzke.com"
+    },
+    "plugins": [
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ]
+  }
+}
